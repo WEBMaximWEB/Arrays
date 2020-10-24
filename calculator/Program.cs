@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace calculator
 {
@@ -8,7 +9,7 @@ namespace calculator
         static void Main(string[] args)
         {
             int[,] array1 = { { 1, 2, 3 }, { 4, 5, 6 } };
-            int[] array2 = { 1, 2, 3 };
+            int[] array2 = { 4, 5, 6 };
 
             string text1 = ArrayToString(array1);
             string text2 = ArrayToString(array2);
